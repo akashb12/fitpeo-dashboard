@@ -40,7 +40,7 @@
 /* responsive css */
 
 /* Apply styles for screens below 640px (sm) */
-@media (min-width: 450px) {
+@media (min-width: 430px) {
 	.order-table{
 		width: 100%;
 	}
