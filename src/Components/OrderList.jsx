@@ -5,7 +5,7 @@ const OrderList = () => {
     return (
         <div className='h-[26rem] hide-scrollbar bg-[#202028] p-4 border-[#202028] rounded-lg flex flex-col flex-1 md:mr-8 mt-5'>
             <span className='text-white font-bold text-xl md:text-2xl'>Recent Orders</span>
-            <div className='mt-3 w-[250px] overflow-x-scroll'>
+            <div className='order-table mt-3 w-[250px] sm:w-100% overflow-x-scroll'>
                 <table className='w-full'>
                     <thead className='bg-[#202028]'>
                         <tr>

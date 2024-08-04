@@ -25,6 +25,8 @@
 		@apply text-sky-500 hover:underline;
 	}
 }
+
+/* scroll bar */
 .hide-scrollbar {
     overflow: auto; /* Enables scrolling */
     scrollbar-width: none; /* For Firefox */
@@ -34,3 +36,14 @@
 .hide-scrollbar::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Opera */
 }
+
+/* responsive css */
+
+/* Apply styles for screens below 640px (sm) */
+@media (min-width: 450px) {
+	.order-table{
+		width: 100%;
+	}
+  }
+
+  
