@@ -138,5 +138,5 @@ function BoxWrapper({ children }) {
 }
 
 function RoundBorder({children,bgColor,size}) {
-  return <div className={`flex rounded-full ${size ? size : 'h-16 w-16'} items-center justify-center ${bgColor ? bgColor : 'bg-[#214a60]'} mb-1 mr-3`}>{children}</div>
+  return <div className={`flex rounded-full ${size ? size : 'h-16 w-16'} items-center justify-center cursor-pointer ${bgColor ? bgColor : 'bg-[#214a60]'} mb-1 mr-3`}>{children}</div>
 }
