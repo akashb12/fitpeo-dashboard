@@ -9,7 +9,7 @@ const Home = () => {
       <SideBar />
       <div className='flex-1'>
         <Header />
-        <div className='p-4 h-full bg-[#141416]'>{<Outlet />}</div>
+        <div className='p-2 md:p-4 h-full bg-[#141416]'>{<Outlet />}</div>
       </div>
     </div>
   )

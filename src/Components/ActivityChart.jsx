@@ -4,7 +4,7 @@ import { CHART_DATA } from '../lib/consts/navigation'
 
 export default function ActivityChart() {
 	return (
-		<div className="h-[22rem] bg-[#202028] p-4 border-[#202028] rounded-lg flex flex-col flex-1 mr-8 mt-5">
+		<div className="h-[22rem] bg-[#202028] p-4 border-[#202028] rounded-lg flex flex-col flex-1 md:mr-8 mt-5">
 			<strong className="text-white font-bold">Activity</strong>
 			<div className="mt-3 w-full flex-1 text-xs">
 				<ResponsiveContainer width="100%" height="100%">

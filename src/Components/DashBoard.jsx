@@ -6,14 +6,16 @@ import { IoFastFoodSharp } from "react-icons/io5";
 import { GoGoal } from "react-icons/go";
 import { BiSolidDish } from "react-icons/bi";
 import ActivityChart from './ActivityChart';
+import OrderList from './OrderList';
+import FeedbackList from './FeedbackList';
 
 const DashBoard = () => {
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-col md:flex-row hide-scrollbar h-[90vh] md:h-[80vh] m-2 md:m-5'>
       {/* left part */}
-      <div className='w-[60%]'>
+      <div className='w-[100%] md:w-[60%] mb-5 md:mb-0'>
         {/* top details - total orders, total delivered, total cancelled, etc */}
-        <div className='flex gap-2 mr-8'>
+        <div className='flex flex-col md:flex-row gap-2 md:mr-8'>
           <BoxWrapper>
             <div className='mb-4'>
               <div className='flex rounded-lg h-12 w-12 items-center justify-center bg-[#293368] mb-1'>
@@ -65,9 +67,10 @@ const DashBoard = () => {
         </div>
         {/* activity graph */}
         <ActivityChart />
+        <OrderList />
       </div>
       {/* right part */}
-      <div className='w-[40%]'>
+      <div className='w-[100%] md:w-[40%]'>
         {/* 1st part */}
         <BoxWrapper>
           <div className='flex justify-between'>
@@ -121,6 +124,8 @@ const DashBoard = () => {
             <RoundBorder size={'h-8 w-8'}><MdKeyboardArrowRight className='text-white' fontSize={24}/></RoundBorder>
           </div>
         </div>
+        {/* third part */}
+        <FeedbackList />
       </div>
     </div>
   )

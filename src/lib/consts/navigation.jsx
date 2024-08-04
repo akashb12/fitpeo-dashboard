@@ -97,3 +97,55 @@ export const CHART_DATA = [
         Income: 48000
     },
 ]
+
+export const RECENT_ORDERS = [
+    {
+        customer: 'Wade Warren',
+        order_no: '15478256',
+        amount: 124.00,
+        status: 'Delivered'
+    },
+    {
+        customer: 'Jane Cooper',
+        order_no: '49878256',
+        amount: 324.00,
+        status: 'Delivered'
+    },
+    {
+        customer: 'Guy Hawkins',
+        order_no: '86218256',
+        amount: 45.88,
+        status: 'Cancelled'
+    },
+    {
+        customer: 'Kristin Watson',
+        order_no: '92618256',
+        amount: 65.00,
+        status: 'Pending'
+    },
+    {
+        customer: 'Cody Fisher',
+        order_no: '23178256',
+        amount: 545.00,
+        status: 'Delivered'
+    },
+    {
+        customer: 'Savannah Nguyen',
+        order_no: '156478256',
+        amount: 224.00,
+        status: 'Delivered'
+    }
+]
+
+export const CUSTOMER_FEEDBACK = [
+    { name: "Alice Johnson", rating: 5, feedback: "Excellent service! Will definitely recommend to others." },
+    { name: "Bob Smith", rating: 4, feedback: "Great product, but the delivery was a bit slow." },
+    { name: "Catherine Lee", rating: 3, feedback: "The quality is okay, but I expected more for the price." },
+    { name: "David Brown", rating: 5, feedback: "Absolutely fantastic! Exceeded my expectations." },
+    { name: "Ella Davis", rating: 4, feedback: "Very satisfied with the purchase. Customer support was helpful." },
+    { name: "Frank Harris", rating: 2, feedback: "Not happy with the product. It didn't match the description." },
+    { name: "Grace Wilson", rating: 5, feedback: "Amazing! Will buy again without hesitation." },
+    { name: "Henry Miller", rating: 3, feedback: "It's an average product. Nothing special." },
+    { name: "Irene Martinez", rating: 4, feedback: "Good value for money. I'm happy with it overall." },
+    { name: "Jack Robinson", rating: 1, feedback: "Very disappointed. The product arrived damaged." }
+  ];

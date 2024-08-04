@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 const SideBar = () => {
   return (
-    <div className='flex flex-col bg-[#202028] w-20 py-3 text-[#6a67e5]'>
+    <div className='flex flex-col bg-[#202028] w-40 py-3 text-[#6a67e5]'>
         <div className='flex justify-center pb-5'>
             <BsGridFill fontSize={35} className='cursor-pointer' />
         </div>
