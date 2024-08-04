@@ -4,9 +4,9 @@ import { IoIosStar } from "react-icons/io";
 
 const FeedbackList = () => {
     return (
-        <div className='h-[26rem] hide-scrollbar bg-[#202028] p-4 border-[#202028] rounded-lg flex flex-col flex-1 mt-5'>
+        <div className='h-[26rem]  bg-[#202028] p-4 border-[#202028] rounded-lg flex flex-col flex-1 mt-5'>
             <span className='text-white font-bold text-2xl'>Customer's Feedback</span>
-            <div className='mt-3'>
+            <div className='mt-3 hide-scrollbar'>
                 {
                     CUSTOMER_FEEDBACK.map((item) => (
                         <div className='mb-6'>
