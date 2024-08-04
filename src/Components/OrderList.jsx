@@ -27,8 +27,8 @@ const OrderList = () => {
                                     </td>
                                     <td className='text-white border-gray-600'>{item.order_no}</td>
                                     <td className='text-white border-gray-600'>{item.amount}</td>
-                                    <td className={`text-white border-gray-600 ${item.status == 'Delivered' ? 'text-[#117f61]' : 'text-[#b0494c]'}`}>
-                                        <span className={`flex rounded-lg h-5 w-20 items-center justify-center mb-1 ${item.status == 'Delivered' ? 'bg-[#115546]' : 'bg-[#5f3238]'}`}>
+                                    <td className={`text-white border-gray-600 ${item.status === 'Delivered' ? 'text-[#117f61]' : 'text-[#b0494c]'}`}>
+                                        <span className={`flex rounded-lg h-5 w-20 items-center justify-center mb-1 ${item.status === 'Delivered' ? 'bg-[#115546]' : 'bg-[#5f3238]'}`}>
                                         {item.status}
                                         </span>
                                     </td>

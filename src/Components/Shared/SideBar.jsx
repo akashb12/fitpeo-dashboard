@@ -30,8 +30,8 @@ const SideBar = () => {
 const SideBarLink = ({item}) => {
     const {pathname} = useLocation();
     return(
-        <div className={`flex flex-col items-center hover:bg-neutral-700 ${pathname == item.path && 'border-l-2 border-[#6a67e5]'}`}>
-            <Link to={item.path} className={`py-4 hover:no-underline active:bg-neutral-600 ${pathname == item.path ? 'text-[#6a67e5]' : 'text-[#808080]'}`}>
+        <div className={`flex flex-col items-center hover:bg-neutral-700 ${pathname === item.path && 'border-l-2 border-[#6a67e5]'}`}>
+            <Link to={item.path} className={`py-4 hover:no-underline active:bg-neutral-600 ${pathname === item.path ? 'text-[#6a67e5]' : 'text-[#808080]'}`}>
                 <span className=' text-[25px]'>{item.icon}</span>
             </Link>
         </div>

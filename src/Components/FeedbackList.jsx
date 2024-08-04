@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
-import { CUSTOMER_FEEDBACK, RECENT_ORDERS } from '../lib/consts/navigation'
+import React from 'react'
+import { CUSTOMER_FEEDBACK } from '../lib/consts/navigation'
 import { IoIosStar } from "react-icons/io";
-import { IoIosStarOutline } from "react-icons/io";
 
 const FeedbackList = () => {
     return (
@@ -30,7 +29,6 @@ const FeedbackList = () => {
 export default FeedbackList
 
 const StarRating = ({ rating }) => {
-    const totalStars = 5;
     return (
         <div className='flex mb-2'>
         {[...Array(5)].map((star, index) => (

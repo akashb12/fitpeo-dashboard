@@ -2,9 +2,7 @@ import {
     HiOutlineHome,
     HiOutlineChartSquareBar,
     HiOutlineClipboardCheck,
-    HiOutlineShoppingBag,
-    HiOutlineQuestionMarkCircle,
-    HiOutlineCog
+    HiOutlineShoppingBag
 } from 'react-icons/hi'
 import { BiWalletAlt } from "react-icons/bi";
 import { RiLogoutCircleRLine } from "react-icons/ri";
